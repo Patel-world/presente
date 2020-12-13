@@ -1,0 +1,105 @@
+
+element.style {
+    position: absolute;
+    top: 245px;
+    left: 478px;
+}
+
+
+
+.jumbotron.jumbotron-fluid {
+    position: fixed;
+    top: 200px;
+}
+
+.mySlides {display:none;}
+
+blockquote {
+    min-height: 5em;
+    padding   : 1em 4em;
+    font      : 1em/150% sans-serif;
+    position  : relative;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  blockquote::before,
+  blockquote::after {
+    position: absolute;
+    height  : 3rem;
+    font    : 6rem/100% Georgia, "Times New Roman", Times, serif;
+  }
+  
+  blockquote::before {
+    content: '“';
+    top    : 0.3rem;
+    left   : 0.9rem;
+  }
+  
+  blockquote::after {
+    content: '”';
+    bottom : 0.3rem;
+    right  : 0.8rem;
+  }
+  
+  blockquote:lang(fr)::before {
+    content: '«';
+    top    : -1.5rem;
+    left   : 0.5rem;
+  }
+  
+  blockquote:lang(fr)::after {
+    content: '»';
+    bottom : 2.6rem;
+    right  : 0.5rem
+  }
+  
+  blockquote i {
+    display   : block;
+    font-size : 0.8em;
+    margin-top: 1rem;
+    text-style: italic;
+    text-align: right;
+  }
+
+  blockquote {
+    position: absolute;
+    left: 692px;
+    top: 63px
+}
+
+.fancy {
+    position: absolute;
+    background-color: #FFC;
+    padding: 2rem;
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  .fancy::before {
+    content: "";
+  
+    position : absolute;
+    z-index  : -1;
+    bottom   : 15px;
+    right    : 5px;
+    width    : 50%;
+    top      : 80%;
+    max-width: 200px;
+  
+    box-shadow: 0px 13px 10px black;
+    transform: rotate(4deg);
+  }
+  .fancy {
+    position: absolute;
+    top: 272px;
+}
+
+.w3-container.w3-teal {
+    position: absolute;
+    left: 1013px;
+    height: 719px;
+}
+element.style {
+    font-size: xx-large;
+    font-family: cursive;
+}
